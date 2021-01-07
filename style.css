@@ -1,0 +1,190 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+@font-face{
+	src:url('font/Algerian Regular.ttf');
+	font-family: Algerian Regular;
+}
+nav{
+	background-color: #931A1D;
+	height: 86px;
+	position: absolute;
+}
+@media {
+	nav ul{
+		background-color: none;
+	}
+}
+@media (max-width: 991px) {
+	nav ul{
+		background-color: #b23629;
+	}
+}
+.nav-link{
+	color: white !important;
+	font-weight: bold !important;
+}
+.nav-link:hover{
+	color: #ee3e52 !important;
+	border-bottom: 5px solid #ee3e52 !important;
+}
+.menu_top{
+	padding: 5px !important;
+	margin-right: 40px;
+	font-family: SVN-AGUDA;
+}
+.active_custom{
+	color: #ee3e52 !important;
+	border-bottom: 5px solid #ee3e52 !important;
+}
+.item:hover{
+	background-color: red;
+}
+.logo{
+	position: relative;
+	margin-left: 15%;
+}
+.body_content{
+	padding: 50px 0 30px 0;
+}
+#title{
+	padding: 32.7625px 32.7625px;
+	margin :70px 0 0 0;
+	text-align: center;
+}
+#sub_title{
+	text-align: justify;
+}
+.bg_network{
+	background-image: url('images/JSB\ Fund11-02.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border: none;
+	margin-left: -1px;
+	padding-bottom: 150px
+}
+.text-center{
+    text-align: left !important;
+}
+.icon_contact{
+	padding: 20px 0 0;
+	background-image: url('img/web-design-15.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.logo_footer{
+	margin-bottom: 25px;
+	padding: 20px;
+}
+.border_bottom{
+	border-bottom: 1px dotted white !important;
+	width: 90%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+div.border_bottom img{
+	margin-right: 10px;
+}
+.end{
+	background-image: url('images/JSB\ Fund1-05.png');
+	background-size:cover;
+}
+.end_content{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.end_div{
+	margin-top: 30px;
+	margin-left: 2%;
+}
+.text_end{
+	padding-top: 18px;
+	font-size: 16px;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+.up{
+	height: 95%;
+    width: 95%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.up:hover {
+    cursor: pointer;
+    height: 105%;
+    width: 105%;
+}
+div.end_div a{
+	color: white;
+	font: 12px/20px PTSansRegular,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+}
+div.end_div a:hover{
+	color: #ee3e52;
+	text-decoration: none;
+}
+.btn_download{
+	height: 42px;
+	width: 147px;
+	border-radius: 20px;
+	border:1px solid;
+	border-color:white;
+	background-image: linear-gradient(to top,#F14859,#B01328);
+	margin-top: 20px;
+}
+.btn_download:hover{
+	height: 42px;
+	width: 147px;
+	border-radius: 20px;
+	border:1px solid;
+	border-color:white;
+	background-image: linear-gradient(to bottom,#F14859,#B01328);
+	margin-top: 20px;
+}
+p#sub_title span{
+	font-family: Algerian Regular;
+	font-weight: bold;
+	font-size:18px;
+	color:red;
+}
+.img-fluid {
+    margin-top: 0px;
+}
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 35px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	height: 70px;
+	width: 70px;
+	padding: 5px;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 5px;
+	/*,#22d8d8*/
+	border-color: #044ffb;
+	background: white;
+	color: red;
+	display: inline-block;
+}
+.footer_link1 a{
+	color: gray !important;
+	font-weight: 300;
+}
